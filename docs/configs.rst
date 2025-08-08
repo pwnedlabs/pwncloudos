@@ -115,3 +115,78 @@ Or for ZSH:
 .. code-block:: zsh
 
    echo "✅ ZSH profile loaded for $USER"
+
+Tool Launcher Scripts
+=====================
+
+PWNCLOUDOS includes **custom launcher scripts** for each tool, allowing them to be executed directly from the XFCE menu or terminal. These launchers provide helpful descriptions, examples, and flags for common use cases.
+
+All launcher files are located in:
+
+**Directory:** ``docs/configs/launchers/``  
+**In PWNCLOUDOS system:** ``/opt/<tool-category>/<tool-name>/<tool>_launcher.sh``
+
+---
+
+Launcher Categories
+-------------------
+
+Each launcher is grouped by its respective cloud or tool domain:
+
+- **AWS Tools:**  
+  📂 ``docs/configs/launchers/aws/``  
+  🔗 [View on GitHub](https://github.com/pwnedlabs/pwncloudos/tree/main/docs/configs/launchers/aws)
+
+- **Azure Tools:**  
+  📂 ``docs/configs/launchers/azure/``  
+  🔗 [View on GitHub](https://github.com/pwnedlabs/pwncloudos/tree/main/docs/configs/launchers/azure)
+
+- **GCP Tools:**  
+  📂 ``docs/configs/launchers/gcp/``  
+  🔗 [View on GitHub](https://github.com/pwnedlabs/pwncloudos/tree/main/docs/configs/launchers/gcp)
+
+- **Multi-Cloud Tools:**  
+  📂 ``docs/configs/launchers/multi_cloud/``  
+  🔗 [View on GitHub](https://github.com/pwnedlabs/pwncloudos/tree/main/docs/configs/launchers/multi_cloud)
+
+- **Code Scanning Tools:**  
+  📂 ``docs/configs/launchers/code_scanning/``  
+  🔗 [View on GitHub](https://github.com/pwnedlabs/pwncloudos/tree/main/docs/configs/launchers/code_scanning)
+
+---
+
+Example: AWeSomeUserFinder
+--------------------------
+
+**Tool path:** ``/opt/aws_tools/AWeSomeUserFinder/awesome_userfinder_launcher.sh``  
+**Docs path:** ``docs/configs/launchers/aws/awesome_userfinder_launcher.sh``
+
+📥 [Download Launcher](https://github.com/pwnedlabs/pwncloudos/raw/main/docs/configs/launchers/aws/awesome_userfinder_launcher.sh)
+
+.. code-block:: bash
+
+   #!/bin/zsh
+   echo -e "\nAWeSomeUserFinder Tool"
+   echo -e "Usage example:"
+   echo -e "> python3 AWeSomeUserFinder.py -f -ak <accesskey> -sk <secretkey> ..."
+
+This launcher provides an overview, usage examples, and links to documentation when launched via the XFCE app menu.
+
+---
+
+How to Use or Create a Launcher
+-------------------------------
+
+1. **Write a bash/zsh launcher script** that:
+   - Prints a description, usage, examples, and references.
+   - Runs the main tool if desired.
+
+2. **Place it in the appropriate tool directory:**
+   - For Example: /opt/aws_tools/<tool>/<tool>_launcher.sh
+
+
+---
+
+💡 Pro Tip:
+You can explore and download all launchers from this GitHub directory:  
+🔗 https://github.com/pwnedlabs/pwncloudos/tree/main/docs/configs/launchers
