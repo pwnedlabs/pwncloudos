@@ -33,7 +33,7 @@ Prefer video instructions? Here are two excellent community walkthroughs for ins
 - `Install PWNCLOUDOS in VMware (Hamada Security) <https://www.youtube.com/watch?v=jlQyxZXFuyM&ab_channel=HamadaSecurity>`_
 
 Importing the Image
-===================
+-------------------
 
 
 On Windows (AMD64):
