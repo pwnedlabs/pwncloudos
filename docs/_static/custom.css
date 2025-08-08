@@ -1,0 +1,27 @@
+/* Image Responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Full-width container override */
+.wy-nav-content {
+    max-width: 95% !important;
+}
+
+/* Enhanced borders */
+.with-border {
+    border: 1px solid #e1e4e5;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    background: #fff;
+}
+
+/* Force full-width for specific images */
+.full-width {
+    width: 100%;
+    max-width: 100%;
+}
