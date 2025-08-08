@@ -117,15 +117,26 @@ Installed into isolated environments and exposed via PATH:
 - trufflehog 2.2.1
 
 Desktop Environment and Theme
------------------------------
+-------------------------------
 
-PWNCLOUDOS uses XFCE 4.18 with a modern dark aesthetic:
+PWNCLOUDOS provides a modern and user-friendly graphical interface built on **XFCE**, customized with stylish fonts, icons, and dark themes to enhance usability for cloud professionals.
 
-- **DE**: XFCE 4.18.1
-- **Theme**: Fluent-pink-Dark
-- **Icons**: Fluent-pink-dark
-- **Cursor**: Default
-- **Font**: JetBrainsMono Nerd Font 10
+**Current UI Stack:**
+
+- **Desktop Environment:** XFCE 4.18.1
+- **GTK Theme:** Fluent-pink-Dark  
+  🔗 https://github.com/vinceliuice/Fluent-gtk-theme
+- **Icon Theme:** Fluent-pink-dark  
+  🔗 https://github.com/vinceliuice/Fluent-icon-theme
+- **Cursor Theme:** Default system cursor
+- **Font:** JetBrainsMono Nerd Font 10  
+  🔗 https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip
+
+**Base OS:** Debian 12 (Bookworm)  
+🔗 https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/
+
+The environment is optimized for terminal-first workflows, with floating window management, hotkey accessibility, and a minimal resource footprint.
+
 
 Contribute
 ----------
