@@ -14,6 +14,18 @@ release = '1.0'  # You can set this dynamically later if needed
 extensions = [
     'sphinx.ext.autodoc',     # Pulls in docstrings from code
     'sphinx.ext.napoleon',    # Supports Google/Numpy-style docstrings
+    "myst_parser",
+]
+
+myst_enable_extensions = [
+    "colon_fence",
+    "deflist",
+    "html_admonition",
+    "html_image",
+    "replacements",
+    "smartquotes",
+    "substitution",
+    "tasklist",
 ]
 
 templates_path = ['_templates']

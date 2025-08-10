@@ -11,6 +11,8 @@ Welcome to PWNCLOUDOS's documentation!
    tools_reference
    assets
    configs
+   xfce4_customization
+   menulibre_customization
    downloads
 
 Indices and tables
