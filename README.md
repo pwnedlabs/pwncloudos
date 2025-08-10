@@ -106,5 +106,5 @@ Built with ❤️ by the [PwnedLabs](https://pwnedlabs.io) team and open-source 
 
 ## 📝 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the Pwnedlabs.
 
