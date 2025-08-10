@@ -4,11 +4,11 @@
 
 It comes pre-loaded with cloud exploitation tools, auditing frameworks, and security testing utilities, all in a lightweight and highly customizable XFCE4 desktop environment.
 
-![GitHub release](https://img.shields.io/github/v/release/pwnedlabs/pwncloudos) 
-![GitHub repo size](https://img.shields.io/github/repo-size/pwnedlabs/pwncloudos)
-![Issues](https://img.shields.io/github/issues/pwnedlabs/pwncloudos)
-![Stars](https://img.shields.io/github/stars/pwnedlabs/pwncloudos)
-![License](https://img.shields.io/github/license/pwnedlabs/pwncloudos)
+[![GitHub release](https://img.shields.io/github/v/release/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/releases)
+[![GitHub repo size](https://img.shields.io/github/repo-size/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos)
+[![GitHub issues](https://img.shields.io/github/issues/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/issues)
+[![GitHub stars](https://img.shields.io/github/stars/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/stargazers)
+[![GitHub license](https://img.shields.io/github/license/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/blob/main/LICENSE)
 
 ---
 
@@ -106,5 +106,5 @@ Built with ❤️ by the [PwnedLabs](https://pwnedlabs.io) team and open-source 
 
 ## 📝 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the Pwnedlabs.
 
