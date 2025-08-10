@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Menu Editor
+Comment=Add or remove applications from the menu
+Icon=menulibre
+OnlyShowIn=Budgie;Cinnamon;GNOME;KDE;LXDE;LXQt;MATE;Pantheon;Unity;XFCE;
+Exec=/usr/bin/menulibre
+Actions=
+Categories=DesktopSettings;GNOME;GTK;Settings;Utility;
+Keywords=Configuration;Menu;User;
+StartupNotify=true

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Flameshot
+Comment=Screenshot
+Icon=/usr/share/pwncloudos/icons/flameshot.png
+Exec=flameshot gui
+Actions=
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;

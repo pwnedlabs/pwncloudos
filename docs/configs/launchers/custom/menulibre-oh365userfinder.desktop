@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Oh365UserFinder
+Comment=Python3 o365 User Enumeration Tool
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "zsh -c 'cd /opt/azure_tools/Oh365UserFinder && ./oh365userfinder_launcher.sh; exec zsh'"
+Terminal=true
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-azure;

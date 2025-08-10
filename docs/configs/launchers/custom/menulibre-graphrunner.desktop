@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=GraphRunner
+Comment=A Post-exploitation Toolset for Interacting with the Microsoft Graph API
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "/opt/ps_tools/GraphRunner/run_graph_runner.sh"
+Terminal=true
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-azure;

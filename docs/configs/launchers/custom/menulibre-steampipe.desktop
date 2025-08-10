@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Steampipe
+Comment=Query and audit multicloud environments using SQL with Steampipe
+Icon=/usr/share/pwncloudos/icons/Steampipe - PwnCloudOS.png
+Exec=xfce4-terminal --hold --command "zsh -i -c 'cd /opt/multi_cloud_tools/steampipe && ./steampipe_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-multicloud;

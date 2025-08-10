@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=AWeSomeUserFinder
+Comment=AWS IAM Username Enumerator and Password Spraying Tool in Python3
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --working-directory="/opt/aws_tools/AWeSomeUserFinder" --command "zsh -i -c './awesome_userfinder_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-aws;

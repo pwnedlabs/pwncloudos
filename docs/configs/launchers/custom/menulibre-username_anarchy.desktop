@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Username_Anarchy
+Comment=Tools for generating usernames when penetration testing. Usernames are half the password brute force problem.
+Icon=/usr/share/pwncloudos/icons/username anarchy - PwnCloudOS.png
+Exec=xfce4-terminal --title="Username Anarchy Launcher" --working-directory=/opt/gcp_tools/username-anarchy --hold --command="./username-anarchy_launcher.sh"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-gcp;

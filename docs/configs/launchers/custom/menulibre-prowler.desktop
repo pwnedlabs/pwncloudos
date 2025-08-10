@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Prowler
+Comment=About\nProwler is an Open Cloud Security tool for AWS, Azure, GCP and Kubernetes. It helps for continuos monitoring, security assessments and audits, incident response, compliance, hardening and forensics readiness. Includes CIS, NIST 800, NIST CSF, CISA, FedRAMP, PCI-DSS, GDPR, HIPAA, FFIEC, SOC2, GXP, Well-Architected Security, ENS and more.
+Icon=/usr/share/pwncloudos/icons/Prowler-PwnCloudOS.png
+Exec=xfce4-terminal --hold --command "zsh -i -c '/opt/multi_cloud_tools/prowler/prowler_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-multicloud;

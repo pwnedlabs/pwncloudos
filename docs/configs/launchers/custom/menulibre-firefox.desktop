@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Firefox
+Comment=ESR Web Browser
+Icon=firefox
+Exec=firefox %U
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-browser;

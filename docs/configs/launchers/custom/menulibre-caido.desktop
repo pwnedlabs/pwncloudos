@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=CAIDO
+Comment=Caido aims to help security professionals and enthusiasts audit web applications with efficiency and ease.
+Icon=/usr/share/pwncloudos/icons/CAIDO - PwndCloudOS.png
+Exec=caido
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-mitm-proxy;

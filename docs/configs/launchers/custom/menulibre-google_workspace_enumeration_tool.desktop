@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Google_Workspace_Enumeration_Tool
+Comment=A Python-based tool to enumerate Google Workspace data using OAuth2 authorization. It collects data from Google Drive, Gmail, Contacts, Calendar, Tasks, and GCP Projects.
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "zsh -c 'cd /opt/gcp_tools/google-workspace-enum && ./google-workspace-enum_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-gcp;

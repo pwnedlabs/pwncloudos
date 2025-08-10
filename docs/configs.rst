@@ -190,3 +190,55 @@ How to Use or Create a Launcher
 💡 Pro Tip:
 You can explore and download all launchers from this GitHub directory:  
 🔗 https://github.com/pwnedlabs/pwncloudos/tree/main/docs/configs/launchers
+
+
+Custom Launcher Files
+----------------------
+
+All custom launchers in PWNCLOUDOS are `.desktop` files created using **menulibre** to integrate security tools into the XFCE menu system.
+
+Each launcher runs a preconfigured bash script for that tool, located in `/opt/...`, making it easy for users to access complex cloud tools via a single click.
+
+**Location in PWNCLOUDOS:**  
+``~/.local/share/applications/``
+
+This is where all custom `.desktop` files are stored and where new ones should be copied.
+
+📁 GitHub Directory: ``docs/configs/launchers/custom/``  
+🔗 `View on GitHub <https://github.com/pwnedlabs/pwncloudos/tree/main/docs/configs/launchers/custom>`_
+
+How to Use:
+-----------
+
+To activate these launchers in your PWNCLOUDOS system:
+
+.. code-block:: bash
+
+   mkdir -p ~/.local/share/applications/
+   cp menulibre-*.desktop ~/.local/share/applications/
+
+XFCE will auto-detect these entries and populate them in the Application Menu.
+
+Example Files:
+--------------
+
+- `menulibre-awesomeuserfinder.desktop` – Runs AWeSomeUserFinder for AWS IAM enum
+- `menulibre-azurehound.desktop` – Azure recon tool with graphical interface
+- `menulibre-prowler.desktop` – AWS auditing via CLI
+- `menulibre-burpsuit-community.desktop` – BurpSuite Community Edition
+
+Sample .desktop Entry
+---------------------
+
+.. code-block:: ini
+
+   [Desktop Entry]
+   Version=1.0
+   Name=AWeSomeUserFinder
+   Exec=/opt/aws_tools/AWeSomeUserFinder/awesome_userfinder_launcher.sh
+   Icon=utilities-terminal
+   Terminal=true
+   Type=Application
+   Categories=Security;AWS;
+
+📥 [Download All Launchers (ZIP)](https://github.com/pwnedlabs/pwncloudos/archive/refs/heads/main.zip)

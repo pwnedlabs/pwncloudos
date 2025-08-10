@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=AADInternals
+Comment=AADInternals toolkit is a PowerShell module containing tools for administering and hacking Entra ID (ex. Azure AD) and Office 365. It is listed in MITRE ATT&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;CK with id S0677.
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "/opt/ps_tools/AADInternals/AADInternals_Launcher.sh"
+Terminal=true
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-azure;

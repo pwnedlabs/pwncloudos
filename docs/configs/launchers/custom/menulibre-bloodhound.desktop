@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=BloodHound
+Comment=BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory, Entra and Azure environment.
+Icon=/usr/share/pwncloudos/icons/BloodHound-PwnCloudOS.png
+Exec=xfce4-terminal --hold --command "bash -c 'cd /opt/azure_tools/bloodhound && ./BloodHound_Launcher.sh; exec bash'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-azure;

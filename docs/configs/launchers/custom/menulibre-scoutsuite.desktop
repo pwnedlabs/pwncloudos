@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=ScoutSuite
+Comment=Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically.
+Icon=/usr/share/pwncloudos/icons/Scoutsuite-PwnCloudOS.png
+Exec=xfce4-terminal --hold --command "zsh -i -c '/opt/multi_cloud_tools/scoutsuite/scoutsuite_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-multicloud;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=BurpSuit-Community
+Comment=Powerful web application security testing tool for finding vulnerabilities.
+Icon=/usr/share/pwncloudos/icons/BurpSuiteCommunity-PwnCloudOS.png
+Exec=BurpSuiteCommunity
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-mitm-proxy;

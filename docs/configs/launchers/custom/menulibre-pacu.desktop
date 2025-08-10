@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Pacu
+Comment=The AWS Exploitation framework, designed for testing the security of Amazon Web Services environments.
+Icon=/usr/share/pwncloudos/icons/Rhino-Security-Labs-PwnCloudOS.png
+Exec=xfce4-terminal --command="pacu"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-aws;

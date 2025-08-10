@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=MFASweep
+Comment=A tool for checking if MFA is enabled on multiple Microsoft Services
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "/opt/ps_tools/invoke_modules/run_mfasweep.sh"
+Terminal=true
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-azure;

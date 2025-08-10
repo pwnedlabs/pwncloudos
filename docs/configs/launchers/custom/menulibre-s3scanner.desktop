@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=S3Scanner
+Comment=A tool to scan and find misconfigured open S3 buckets across various cloud providers, including AWS, DigitalOcean, DreamHost, GCP, Linode, Scaleway, and custom providers
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "zsh -i -c 'cd /opt/multi_cloud_tools/s3scanner && /usr/bin/zsh ./s3scanner_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-multicloud;

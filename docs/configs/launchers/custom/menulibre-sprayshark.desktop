@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=SprayShark
+Comment=SprayShark is a modular G-Suite password sprayer with threading!
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --title "SprayShark" --command "zsh -c 'cd /opt/gcp_tools/sprayshark && ./sprayshark_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-gcp;

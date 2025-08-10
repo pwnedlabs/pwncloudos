@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=BasicBlobFinder
+Comment=Identify Azure blobs using a wordlist of account name and container name strings
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "zsh -c 'cd /opt/azure_tools/basicblobfinder && ./basicblobfinder_launcher.sh; exec zsh'"
+Terminal=true
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-azure;

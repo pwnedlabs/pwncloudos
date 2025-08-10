@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Aws_Enumerator
+Comment=The AWS Enumerator was created for service enumeration and info dumping for investigations of penetration testers during Black-Box testing. The tool is intended to speed up the process of Cloud review in case the security researcher compromised AWS Account Credentials.
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "bash -c 'cd /opt/aws_tools/aws_enumerator && ./aws-enumerator_launcher.sh; exec bash'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-aws;

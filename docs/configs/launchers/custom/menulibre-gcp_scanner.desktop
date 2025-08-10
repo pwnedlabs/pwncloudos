@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=GCP_Scanner
+Comment=A comprehensive scanner for Google Cloud
+Icon=/usr/share/pwncloudos/icons/GCP Scanner - PwnCloudOS.png
+Exec=xfce4-terminal --hold --command "zsh -c 'cd /opt/gcp_tools/gcp_scanner && ./gcp-scanner_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-gcp;

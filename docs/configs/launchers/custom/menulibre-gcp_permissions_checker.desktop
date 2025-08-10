@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=GCP_Permissions_Checker
+Comment=GCP Permissions Checker: Python script for enumerating and testing GCP IAM permissions.
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "zsh -c 'cd /opt/gcp_tools/gcp-permissions-checker && ./gcp-permissions-checker_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-gcp;

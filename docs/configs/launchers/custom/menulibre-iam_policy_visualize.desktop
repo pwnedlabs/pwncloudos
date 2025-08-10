@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Iam_Policy_Visualize
+Comment=Python script to create a visualization of GCP Project IAM policy bindings
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "zsh -c 'cd /opt/gcp_tools/iam-policy-visualize && ./iam-policy-visualize_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-gcp;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Chromium Web Browser
+Comment=Access the Internet
+Icon=chromium-browser
+Exec=/usr/bin/chromium %U
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-browser;

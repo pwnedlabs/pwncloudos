@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=CloudFox
+Comment=CloudFox helps you gain situational awareness in unfamiliar cloud environments. It’s an open source command line tool created to help penetration testers and other offensive security professionals find exploitable attack paths in cloud infrastructure
+Icon=/usr/share/pwncloudos/icons/Cloudfox-PwnCloudOS.png
+Exec=xfce4-terminal --hold --command "zsh -i -c '/opt/multi_cloud_tools/cloudfox/cloudfox_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-multicloud;

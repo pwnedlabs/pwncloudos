@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Exfil_Exchange_Email
+Comment=Extract Emails in HTML format that reside in Inbox by feeding it an MS Graph token. Requires Mail.Read rights or higher.
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "/opt/azure_tools/exfil_exchange_mail/exfil_exchange_mail_launcher.sh"
+Terminal=true
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-azure;

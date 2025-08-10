@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=SeamlessPass
+Comment=A tool leveraging Kerberos tickets to get Microsoft 365 access tokens using Seamless SSO
+Icon=/usr/share/pwncloudos/icons/PwnCloudOS-icon.png
+Exec=xfce4-terminal --hold --command "zsh -i -c 'cd /opt/azure_tools/seamlesspass && ./seamlesspass_launcher.sh; exec zsh'"
+Actions=
+Categories=X-XFCE;X-Xfce-Toplevel;menulibre-azure;
