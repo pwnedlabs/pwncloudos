@@ -1,4 +1,4 @@
-# PWNCLOUDOS ☁️🐧
+# PWNCLOUDOS ☁️
 
 **PWNCLOUDOS** is a multi-cloud security Linux distribution built for red, blue, and purple team operations across AWS, Azure, and GCP.
 
@@ -16,16 +16,10 @@ It comes pre-loaded with cloud exploitation tools, auditing frameworks, and secu
 
 - ✅ Pre-installed tools for **AWS**, **Azure**, **GCP**
 - ✅ ZSH + PowerShell with custom cloud-themed prompts
-- ✅ Custom XFCE4 config and launchers
+- ✅ Custom XFCE4, LibreMenu config and launchers
 - ✅ Downloadable configs for `.zshrc`, PowerShell, XFCE
 - ✅ Community-driven and open-source
 - ✅ Two builds: **AMD64** (Intel/Windows) and **ARM64** (Apple Silicon)
-
----
-
-## 🖼️ Screenshots
-
-> Coming soon – XFCE desktop, launcher menus, custom terminal previews.
 
 ---
 
@@ -79,8 +73,7 @@ All shell and system configs used in PWNCLOUDOS are available for download and r
 
 ## 💬 Community & Support
 
-- 💬 **Discord:** https://discord.gg/mPfCrnZdXR  
-  Join the `☁️-pwncloudos` channel
+- Join the **☁️-pwncloudos** channel https://discord.gg/mPfCrnZdXR  
 - 📬 **Email:** hi@pwnedlabs.io
 - 📝 [Submit feedback](https://forms.gle/QiDdgix24tX1k7di7)
 
