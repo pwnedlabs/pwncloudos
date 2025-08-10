@@ -4,10 +4,10 @@
 
 It comes pre-loaded with cloud exploitation tools, auditing frameworks, and security testing utilities, all in a lightweight and highly customizable XFCE4 desktop environment.
 
-[![GitHub release](https://img.shields.io/github/v/release/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/releases)
-[![GitHub repo size](https://img.shields.io/github/repo-size/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos)
-[![GitHub issues](https://img.shields.io/github/issues/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/issues)
-[![GitHub stars](https://img.shields.io/github/stars/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/stargazers)
+[![GitHub release](https://img.shields.io/github/v/release/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/releases)  
+[![GitHub repo size](https://img.shields.io/github/repo-size/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos)  
+[![GitHub issues](https://img.shields.io/github/issues/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/issues)  
+[![GitHub stars](https://img.shields.io/github/stars/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/stargazers)  
 [![GitHub license](https://img.shields.io/github/license/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/blob/main/LICENSE)
 
 ---
@@ -16,7 +16,7 @@ It comes pre-loaded with cloud exploitation tools, auditing frameworks, and secu
 
 - ✅ Pre-installed tools for **AWS**, **Azure**, **GCP**
 - ✅ ZSH + PowerShell with custom cloud-themed prompts
-- ✅ Custom XFCE4, LibreMenu config and launchers
+- ✅ Custom XFCE4, Menulibre config and launchers
 - ✅ Downloadable configs for `.zshrc`, PowerShell, XFCE
 - ✅ Community-driven and open-source
 - ✅ Two builds: **AMD64** (Intel/Windows) and **ARM64** (Apple Silicon)
@@ -25,19 +25,17 @@ It comes pre-loaded with cloud exploitation tools, auditing frameworks, and secu
 
 ## 💻 Downloads
 
-| Version | Architecture | Link |
-|--------|---------------|------|
-| `v1.2` | AMD64         | [Download ISO](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.ova) |
-| `v1.2` | ARM64         | [Download ISO](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-arm64.zip) |
-| Previous Releases | — | [All Versions](https://github.com/pwnedlabs/pwncloudos/releases) |
+| Version          | Architecture | Format | Link                                                                                     |
+|------------------|--------------|--------|------------------------------------------------------------------------------------------|
+| `v1.2`           | AMD64        | `.ova` | [Download ISO](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.ova)     |
+| `v1.2`           | ARM64        | `.zip` | [Download ISO](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-arm64.zip)     |
+| Previous Releases | —            | —      | [All Versions](https://github.com/pwnedlabs/pwncloudos/releases)                         |
 
 ---
 
 ## 🛠️ Tools Included
 
-> See full list → [ReadTheDocs: Tools Reference](https://pwncloudos.readthedocs.io/en/latest/tools_reference.html)
-
-Tools are grouped under:
+Includes popular pentesting and cloud auditing frameworks and utilities, organized under:
 
 - `/opt/aws_tools/`
 - `/opt/azure_tools/`
@@ -47,17 +45,19 @@ Tools are grouped under:
 - `/opt/code_scanning/`
 - `/opt/cracking-tools/`
 
+> See full list → [ReadTheDocs: Tools Reference](https://pwncloudos.readthedocs.io/en/latest/tools_reference.html)
+
 ---
 
 ## 📂 Configuration Files
 
-All shell and system configs used in PWNCLOUDOS are available for download and reuse:
+All shell and system configs used in PWNCLOUDOS are version-controlled and reusable:
 
-| Config Type | Folder |
-|-------------|--------|
-| ZSH & PowerShell | [`docs/configs/shell/`](docs/configs/shell/) |
-| XFCE Layouts & Themes | [`docs/configs/xfce/`](docs/configs/xfce/) |
-| Custom Launchers | [`docs/configs/launchers/`](docs/configs/launchers/) |
+| Config Type        | Folder                                      |
+|--------------------|---------------------------------------------|
+| ZSH & PowerShell   | [`docs/configs/shell/`](docs/configs/shell/)  |
+| XFCE Layouts & Themes | [`docs/configs/xfce/`](docs/configs/xfce/)    |
+| Custom Launchers   | [`docs/configs/launchers/`](docs/configs/launchers/) |
 
 📚 View documentation: [ReadTheDocs Configs](https://pwncloudos.readthedocs.io/en/latest/configs.html)
 
@@ -65,17 +65,17 @@ All shell and system configs used in PWNCLOUDOS are available for download and r
 
 ## 📖 Documentation
 
-> Full documentation hosted on ReadTheDocs
+Full documentation hosted on ReadTheDocs:
 
-📘 **Read the Docs:** https://pwncloudos.readthedocs.io/
+📘 [https://pwncloudos.readthedocs.io/](https://pwncloudos.readthedocs.io/)
 
 ---
 
 ## 💬 Community & Support
 
-- Join the **☁️-pwncloudos** channel https://discord.gg/mPfCrnZdXR  
-- 📬 **Email:** hi@pwnedlabs.io
-- 📝 [Submit feedback](https://forms.gle/QiDdgix24tX1k7di7)
+- Join the **☁️-pwncloudos** Discord channel: https://discord.gg/mPfCrnZdXR  
+- 📬 Email us at: hi@pwnedlabs.io  
+- 📝 Submit feedback or report issues: https://forms.gle/QiDdgix24tX1k7di7
 
 ---
 
@@ -85,9 +85,9 @@ We welcome community contributions! You can:
 
 - Submit pull requests with tools, configs, or scripts
 - Open issues for bugs or feature requests
-- Improve docs and launcher files
+- Improve documentation and launcher files
 
-🔧 Start here: [CONTRIBUTING.md](CONTRIBUTING.md) (coming soon)
+🔧 Start here: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
@@ -99,5 +99,4 @@ Built with ❤️ by the [PwnedLabs](https://pwnedlabs.io) team and open-source 
 
 ## 📝 License
 
-This project is licensed under the Pwnedlabs.
-
+This project is licensed under the PwnedLabs.
