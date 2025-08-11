@@ -45,3 +45,8 @@ html_theme_options = {
 html_css_files = [
     'custom.css',
 ]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
