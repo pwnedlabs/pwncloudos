@@ -14,9 +14,10 @@ formats:
   - pdf
 
 python:
-   install:
-   - requirements: requirements.txt
-   - package: myst-parser
+  install:
+    - requirements: requirements.txt
+    - method: pip
+      path: .
 
 
         
