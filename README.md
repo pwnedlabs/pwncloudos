@@ -92,7 +92,7 @@ We welcome community contributions! You can:
 
 ## 🧠 Credits
 
-Built with ❤️ by the [PwnedLabs](https://pwnedlabs.io) team and open-source contributors.
+Built with ❤️ by the [Pwned Labs](https://pwnedlabs.io) team and open-source contributors.
 
 ---
 
