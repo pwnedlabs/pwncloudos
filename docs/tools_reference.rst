@@ -9,29 +9,29 @@ AWS Tools (/opt/aws_tools/)
 These tools assist in auditing, enumerating, and attacking AWS environments:
 
 - `AWeSomeUserFinder <https://github.com/dievus/AWeSomeUserFinder>`_
-- `aws_enumerator <https://github.com/NotSoSecure/aws_enum>`_
-- `github-oidc-checker <https://github.com/harshbothra/github-oidc-checker>`_
-- `IAMGraph <https://github.com/nccgroup/IAMGraph>`_
+- `aws_enumerator <https://github.com/shabarkin/aws-enumerator>`_
+- `github-oidc-checker <https://github.com/Rezonate-io/github-oidc-checker>`_
+- `IAMGraph <https://github.com/WithSecureLabs/IAMGraph>`_
 - `pacu <https://github.com/RhinoSecurityLabs/pacu>`_
 - `pmapper <https://github.com/nccgroup/PMapper>`_
-- `s3_account_search <https://github.com/initstring/s3-account-search>`_
+- `s3_account_search <https://github.com/WeAreCloudar/s3-account-search>`_
 
 Azure Tools (/opt/azure_tools/)
 -------------------------------
 
 These tools focus on Azure infrastructure enumeration, credential abuse, and exploitation:
 
-- `AzSubEnum <https://github.com/NetSPI/AzSubEnum>`_
+- `AzSubEnum <https://github.com/yuyudhn/AzSubEnum>`_
 - `azure_hound <https://github.com/BloodHoundAD/AzureHound>`_
-- `basicblobfinder <https://github.com/initstring/basicblobfinder>`_
-- `bloodhound <https://github.com/BloodHoundAD/BloodHound>`_
-- `exfil_exchange_mail <https://github.com/nyxgeek/exfil_exchange_mail>`_
-- `o365enum <https://github.com/nyxgeek/o365enum>`_
+- `basicblobfinder <https://github.com/joswr1ght/basicblobfinder>`_
+- `bloodhound <https://github.com/SpecterOps/BloodHound>`_
+- `exfil_exchange_mail <https://github.com/rootsecdev/Azure-Red-Team/tree/master/Tokens>`_
+- `o365enum <https://github.com/gremwell/o365enum>`_
 - `o365spray <https://github.com/0xZDH/o365spray>`_
 - `Oh365UserFinder <https://github.com/dievus/Oh365UserFinder>`_
-- `Omnispray <https://github.com/mhaskar/OmniSpray>`_
+- `Omnispray <https://github.com/0xZDH/Omnispray>`_
 - `roadrecon <https://github.com/dirkjanm/ROADtools>`_
-- `seamlesspass <https://github.com/BishopFox/seamlesspass>`_
+- `seamlesspass <https://github.com/Malcrove/SeamlessPass>`_
 
 GCP Tools (/opt/gcp_tools/)
 ---------------------------
@@ -52,7 +52,7 @@ Multi-Cloud Tools (/opt/multi_cloud_tools/)
 Tools that support AWS, Azure, and GCP in a unified manner:
 
 - `cloudfox <https://github.com/BishopFox/cloudfox>`_
-- `powerpipe <https://github.com/Azure/powerpipe>`_
+- `powerpipe <https://powerpipe.io/docs>`_
 - `prowler <https://github.com/prowler-cloud/prowler>`_
 - `s3scanner <https://github.com/sa7mon/S3Scanner>`_
 - `scoutsuite <https://github.com/nccgroup/ScoutSuite>`_
@@ -64,10 +64,10 @@ PowerShell Tools (/opt/ps_tools/)
 Advanced post-exploitation and cloud access tooling for Windows environments:
 
 - `AADInternals <https://github.com/Gerenios/AADInternals>`_
-- `GraphRunner <https://github.com/samratashok/GraphRunner>`_
+- `GraphRunner <https://github.com/dafthack/GraphRunner/wiki>`_
 - `invoke_modules <https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon>`_
 - `MFASweep <https://github.com/dafthack/MFASweep>`_
-- `TokenTacticsV2 <https://github.com/mvelazc0/TokenTactics>`_
+- `TokenTacticsV2 <https://github.com/f-bader/TokenTacticsV2>`_
 
 Code Scanning Tools (/opt/code_scanning/)
 -----------------------------------------
