@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.abspath(os.path.join('..', 'src')))
 
 # -- Project information -----------------------------------------------------
 project = 'PWNCLOUDOS'
-copyright = '2025, PwnedLabs'
+copyright = '2025, Pwned Labs'
 author = 'PwnedLabs'
 release = '1.0'  # You can set this dynamically later if needed
 
