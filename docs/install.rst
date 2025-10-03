@@ -50,11 +50,44 @@ On macOS (ARM64/Apple Silicon):
 3. Allocate resources (6+ GB RAM recommended)
 4. Boot into PWNCLOUDOS
 
+VirtualBox Post Import
+--------------------
+
+- Settings > General > Advanced
+
+  - Shared Clipboard: Your Choice
+
+  - Drag'n'Drop: Your Choice
+
+- Settings > Display > Screen
+  
+  - Graphics Controller: **VMSVGA**
+
+  - Extended Features: ✅ **Enable 3D Acceleration**
+
+
+VirtualBox Issue
+----------------
+
+- Why am I seeing a blank, black screen on load?
+  
+  - If you're using **Oracle VirtualBox**, make sure the **Graphics Controller** is set to **VMSVGA**. Otherwise, you may experience a blank/black screen when booting PWNCLOUDOS
+
+
 Networking Tips
 ---------------
 
 - For internet access, ensure your VM network is set to **NAT** or **Bridged**
 
-- Why am I seeing a blank, black screen on load?
-  
-  - If you're using **Oracle VirtualBox**, make sure the **Graphics Controller** is set to **VMSVGA**. Otherwise, you may experience a blank/black screen when booting PWNCLOUDOS.
+Set Keyboard Layout
+-------------------
+
+1. Log in with the password ``pwnedlabs``, using a virtual keyboard may be helpful because LightDM does not allow pasting into the password field for security reasons.
+2. Open a terminal
+3. Replace ``fr`` by your keyboard layout code and paste the commands
+
+   ``sudo sed -i.bak 's/XKBLAYOUT="us"/XKBLAYOUT="fr"/' /etc/default/keyboard && sudo reboot``
+4. Run the commands and enter the password for sudo (``pwnedlabs``) ; this time, you can copy and paste it!
+5. The system will restart and **the keyboard layout has been changed, even on a logging screen** (the code is displayed in the upper right corner).
+
+.
