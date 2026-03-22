@@ -1,20 +1,19 @@
 # PWNCLOUDOS ☁️
 
-**PWNCLOUDOS** is a multi-cloud security Linux distribution built for red, blue, and purple team operations across AWS, Azure, and GCP.
+**PWNCLOUDOS** is a multi-cloud security Linux distribution built for red, blue, and purple team operations across AWS, Azure & Microsoft 365 and GCP & Google Workspace.
 
 It comes pre-loaded with cloud exploitation tools, auditing frameworks, and security testing utilities, all in a lightweight and highly customizable XFCE4 desktop environment.
 
-[![GitHub release](https://img.shields.io/github/v/release/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/releases)  
 [![GitHub repo size](https://img.shields.io/github/repo-size/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos)  
 [![GitHub issues](https://img.shields.io/github/issues/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/issues)  
 [![GitHub stars](https://img.shields.io/github/stars/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/stargazers)  
-[![GitHub license](https://img.shields.io/github/license/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/LICENSE)
 
 ---
 
 ## 🔥 Key Features
 
-- ✅ Pre-installed tools for **AWS**, **Azure**, **GCP**
+- ✅ Pre-installed tools for **AWS**, **Azure** & **Microsoft 365**, **GCP** & **Google Workspace**
 - ✅ ZSH + PowerShell with custom cloud-themed prompts
 - ✅ Custom XFCE4, Menulibre config and launchers
 - ✅ Downloadable configs for `.zshrc`, PowerShell, XFCE
@@ -27,8 +26,9 @@ It comes pre-loaded with cloud exploitation tools, auditing frameworks, and secu
 
 | Version          | Architecture | Format | Link                                                                                     |
 |------------------|--------------|--------|------------------------------------------------------------------------------------------|
-| `v1.2`           | AMD64        | `.ova` | [Download ISO](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.ova)     |
-| `v1.2`           | ARM64        | `.zip` | [Download ISO](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-arm64.zip)     |
+| `v1.2`           | AMD64        | `.ova` | [Download ISO VM Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.ova)     |
+| `v1.2`           | AMD64        | `.iso` | [Download ISO Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.iso)     |
+| `v1.2`           | ARM64        | `.vmwarevm` | [Download VM Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-arm64.zip)     |
 
 ---
 
@@ -93,7 +93,6 @@ We welcome community contributions! You can:
 ## 🧠 Credits
 
 Built with ❤️ by the [Pwned Labs](https://pwnedlabs.io) team and open-source contributors.
-
 ---
 
 ## 📝 License
