@@ -26,7 +26,7 @@ It comes pre-loaded with cloud exploitation tools, auditing frameworks, and secu
 
 | Version          | Architecture | Format | Link                                                                                     |
 |------------------|--------------|--------|------------------------------------------------------------------------------------------|
-| `v1.2`           | AMD64        | `.ova` | [Download ISO VM Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.ova)     |
+| `v1.2`           | AMD64        | `.ova` | [Download VM Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.ova)     |
 | `v1.2`           | AMD64        | `.iso` | [Download ISO Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.iso)     |
 | `v1.2`           | ARM64        | `.vmwarevm` | [Download VM Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-arm64.zip)     |
 
