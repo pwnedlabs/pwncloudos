@@ -11,7 +11,7 @@ It comes pre-loaded with cloud exploitation tools, auditing frameworks, and secu
 [![GitHub stars](https://img.shields.io/github/stars/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/stargazers)  
 [![GitHub license](https://img.shields.io/github/license/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/LICENSE)
 
-![PWNCLOUDOS Login Screen](https://github.com/user-attachments/assets/d8b5f2f6-ed81-4484-9d5a-8cabaf59fb57)
+![PWNCLOUDOS Login Screen](https://github.com/user-attachments/assets/eaf78b9b-f337-4cd9-a194-731ba099f09d)
 
 ---
 
