@@ -103,6 +103,20 @@ We welcome community contributions! You can:
 
 ---
 
+## 👥 Contributors
+
+Thank you to the community who develop and maintain PWNCLOUDOS. We wouldn't be able to do this without you!
+
+**Development Lead:** [Ritesh Gohil](https://www.linkedin.com/in/riteshgohil25)
+
+### Community Contributors
+
+| Name | Contribution |
+|------|-------------|
+| [Mohd Kashif](https://linkedin.com/in/inventashif) | Provided exceptional help in building the ISO image for PWNCLOUDOS |
+
+---
+
 ## 🧠 Credits
 
 Built with ❤️ by the [Pwned Labs](https://pwnedlabs.io) team and open-source contributors.
