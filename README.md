@@ -26,11 +26,13 @@ It comes pre-loaded with cloud exploitation tools, auditing frameworks, and secu
 
 ## 💻 Downloads
 
-| Version          | Architecture | Format | Link                                                                                     |
-|------------------|--------------|--------|------------------------------------------------------------------------------------------|
-| `v1.2`           | AMD64        | `.ova` | [Download VM Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.ova)     |
-| `v1.2`           | AMD64        | `.iso` | [Download ISO Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.iso)     |
-| `v1.2`           | ARM64        | `.vmwarevm` | [Download VM Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-arm64.zip)     |
+| Version | Architecture | Format | Supported Platforms | Link |
+|---------|--------------|--------|---------------------|------|
+| `v1.2` | AMD64 | `.ova` | VMware Workstation, VirtualBox, Proxmox | [Download VM Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.ova) |
+| `v1.2` | AMD64 | `.iso` | Bare Metal, Any Hypervisor | [Download ISO Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-amd64.iso) |
+| `v1.2` | ARM64 | `.vmwarevm` | VMware Fusion (Apple Silicon) | [Download VM Image](https://download.pwncloudos.pwnedlabs.io/images/pwncloudos-arm64.zip) |
+
+> 💡 **Hyper-V users:** Use [VMCreate](https://github.com/moerketh/VMCreate) to import PWNCLOUDOS on Windows Hyper-V.
 
 ---
 
@@ -50,15 +52,24 @@ Includes popular pentesting and cloud auditing frameworks and utilities, organiz
 
 ---
 
+## 🔗 Related Projects
+
+| Project | Description |
+|---------|-------------|
+| [pwncloudos-sync](https://github.com/pwnedlabs/pwncloudos-sync) | Sync tool to keep your PWNCLOUDOS tooling up to date |
+| [VMCreate](https://github.com/moerketh/VMCreate) | Hyper-V VM creation utility for importing PWNCLOUDOS on Windows |
+
+---
+
 ## 📂 Configuration Files
 
 All shell and system configs used in PWNCLOUDOS are version-controlled and reusable:
 
-| Config Type        | Folder                                      |
-|--------------------|---------------------------------------------|
-| ZSH & PowerShell   | [`docs/configs/shell/`](docs/configs/shell/)  |
-| XFCE Layouts & Themes | [`docs/configs/xfce/`](docs/configs/xfce/)    |
-| Custom Launchers   | [`docs/configs/launchers/`](docs/configs/launchers/) |
+| Config Type | Folder |
+|-------------|--------|
+| ZSH & PowerShell | [`docs/configs/shell/`](docs/configs/shell/) |
+| XFCE Layouts & Themes | [`docs/configs/xfce/`](docs/configs/xfce/) |
+| Custom Launchers | [`docs/configs/launchers/`](docs/configs/launchers/) |
 
 📚 View documentation: [ReadTheDocs Configs](https://pwncloudos.readthedocs.io/en/latest/configs.html)
 
@@ -95,6 +106,7 @@ We welcome community contributions! You can:
 ## 🧠 Credits
 
 Built with ❤️ by the [Pwned Labs](https://pwnedlabs.io) team and open-source contributors.
+
 ---
 
 ## 📝 License
