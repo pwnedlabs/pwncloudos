@@ -1,6 +1,6 @@
 # PWNCLOUDOS ☁️
 
-**PWNCLOUDOS** is a multi-cloud security Linux distribution built for red, blue, and purple team operations across AWS, Azure & Microsoft 365 and GCP & Google Workspace.
+PWNCLOUDOS is a multi-cloud security Linux distribution for hackers and defenders. Built for red, blue, and purple team operations across AWS, Azure & Microsoft 365, and GCP & Google Workspace.
 
 It comes pre-loaded with cloud exploitation tools, auditing frameworks, and security testing utilities, all in a lightweight and highly customizable XFCE4 desktop environment.
 
@@ -10,6 +10,8 @@ It comes pre-loaded with cloud exploitation tools, auditing frameworks, and secu
 [![GitHub issues](https://img.shields.io/github/issues/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/issues)  
 [![GitHub stars](https://img.shields.io/github/stars/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/stargazers)  
 [![GitHub license](https://img.shields.io/github/license/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/LICENSE)
+
+![PWNCLOUDOS Login Screen](docs/assets/pwncloudos-login.png)
 
 ---
 
