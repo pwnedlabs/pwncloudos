@@ -85,7 +85,7 @@ Full documentation hosted on ReadTheDocs:
 
 ## 💬 Community & Support
 
-- Join the **☁️-pwncloudos** Discord channel: https://discord.gg/mPfCrnZdXR  
+- Join the **☁️-pwncloudos** Discord channel: https://discord.gg/pwnedlabs  
 - 📬 Email us at: hi@pwnedlabs.io  
 - 📝 Submit feedback or report issues: https://forms.gle/QiDdgix24tX1k7di7
 
