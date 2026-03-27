@@ -74,5 +74,5 @@ git commit -m "feat: add new launcher for XYZ app"
 ## Community
 
 Join the PWNCLOUDOS community for support and discussion:  
-- Discord: https://discord.gg/mPfCrnZdXR  
+- Discord: https://discord.gg/pwnedlabs
 - Email: hi@pwnedlabs.io
