@@ -4,7 +4,7 @@ PWNCLOUDOS is a multi-cloud security Linux distribution for hackers and defender
 
 It comes pre-loaded with cloud exploitation tools, auditing frameworks, and security testing utilities, all in a lightweight and highly customizable XFCE4 desktop environment.
 
-🌐 [pwncloudos.pwnedlabs.io](https://pwncloudos.pwnedlabs.io)
+🌐 [pwncloudos.pwnedlabs.io](https://pwnedlabs.io/pwncloudos)
 
 [![GitHub repo size](https://img.shields.io/github/repo-size/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos)  
 [![GitHub issues](https://img.shields.io/github/issues/pwnedlabs/pwncloudos)](https://github.com/pwnedlabs/pwncloudos/issues)  
